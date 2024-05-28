@@ -1,5 +1,4 @@
 import streamlit as st
-from ibm_watsonx_ai.foundation_models import Model
 import os
 from dotenv import load_dotenv
 from helpers.auth import auth
