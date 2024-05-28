@@ -32,7 +32,7 @@ def main():
         
         with col1:
             # Display an image (replace 'image_path_or_url' with the actual path or URL to your image)
-            st.image('images\watson.png', width=180)  # Adjust the width as needed
+            st.image('images/watson.png', width=180)  # Adjust the width as needed
         
         with col2:
             # Display the title next to the image
