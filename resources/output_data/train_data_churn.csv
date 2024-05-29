@@ -101,6 +101,7 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 413,France,Male,34,9,0.0,2,0,0,6534.18,0
 665,France,Female,40,6,0.0,1,1,1,161848.03,0
 623,France,Female,44,6,0.0,2,0,0,167162.43,0
+738,France,Male,31,9,82674.15,1,1,0,41970.72,0
 528,Spain,Male,36,7,0.0,2,1,0,60536.56,0
 670,Spain,Female,65,1,0.0,1,1,1,177655.68,1
 622,Spain,Female,46,4,107073.27,2,1,1,30984.59,1
@@ -351,7 +352,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 659,Spain,Male,32,3,107594.11,2,1,1,102416.84,0
 762,Spain,Male,39,2,81273.13,1,1,1,18719.67,0
 568,Spain,Female,32,7,169399.6,1,1,0,61936.22,0
-670,Spain,Male,25,6,0.0,2,1,1,78358.94,0
 613,France,Female,45,1,187841.99,2,1,1,147224.27,0
 539,France,Male,30,0,0.0,2,1,0,160979.66,0
 850,Spain,Female,57,8,126776.3,2,1,1,132298.49,0
@@ -2532,6 +2532,7 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 607,Germany,Male,47,4,148826.32,1,1,1,79450.61,0
 827,France,Female,60,2,0.0,2,0,1,60615.83,0
 606,France,Male,61,5,108166.09,2,0,1,8643.21,0
+717,Germany,Female,35,5,103214.71,1,1,0,172172.7,0
 651,Germany,Male,40,1,134760.21,2,0,0,174434.06,1
 691,France,Male,58,3,0.0,1,0,1,194930.3,1
 573,France,Female,33,0,90124.64,1,1,0,137476.71,0
@@ -2607,7 +2608,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 814,France,Male,31,1,118870.92,1,1,0,101704.19,0
 600,France,Male,32,1,0.0,1,1,1,101986.16,0
 682,France,Female,46,2,0.0,1,1,1,114442.66,0
-682,France,Male,38,4,107192.38,1,1,1,15669.17,0
 566,France,Male,42,3,108010.78,1,1,1,157486.1,0
 550,Spain,Male,34,3,0.0,2,0,0,131281.28,0
 630,France,Male,26,7,129837.72,2,0,1,197001.15,0
@@ -3099,7 +3099,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 696,Spain,Male,60,8,88786.81,1,1,1,196858.4,0
 810,Germany,Male,35,3,96814.46,2,1,1,120511.03,0
 763,Germany,Male,32,9,160680.41,1,1,0,30886.35,0
-640,France,Female,29,3,0.0,2,1,0,2743.69,0
 655,France,Female,47,10,0.0,2,1,0,167778.62,0
 526,Germany,Male,31,5,145537.21,1,1,0,132404.64,0
 678,France,Female,28,4,0.0,2,1,1,144423.17,1
@@ -4002,7 +4001,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 634,Germany,Female,29,8,130036.21,2,0,1,69849.55,0
 750,France,Female,26,1,151510.17,2,1,1,19921.72,0
 530,Spain,Female,41,4,0.0,2,0,1,147606.71,0
-589,France,Female,59,2,0.0,2,1,1,126160.24,1
 654,France,Male,37,6,83568.55,1,1,0,47046.72,0
 648,France,Female,43,7,139972.18,1,1,0,143668.58,0
 835,Spain,Male,45,3,100212.13,1,1,0,152577.62,0
@@ -4016,7 +4014,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 480,France,Male,40,6,148790.61,1,0,1,79329.7,0
 811,France,Male,46,9,180226.24,1,1,0,13464.64,1
 715,Germany,Female,32,3,104857.19,2,1,0,114149.8,0
-620,Spain,Male,31,2,166833.86,2,1,1,135171.6,0
 721,France,Male,42,4,102936.72,1,0,0,1187.88,0
 772,Germany,Female,48,6,108736.52,1,1,0,184564.67,1
 680,Germany,Male,44,0,129974.79,2,1,1,33391.38,0
@@ -4206,6 +4203,7 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 604,France,Female,47,8,62094.71,3,0,0,9308.1,1
 656,France,Male,37,7,112291.34,1,1,0,153157.97,0
 447,France,Female,44,5,89188.83,1,1,1,75408.24,0
+682,France,Male,55,9,0.0,1,1,0,153356.8,1
 437,Spain,Male,28,2,109161.25,1,1,0,152987.42,0
 792,Spain,Male,47,0,0.0,1,1,1,5557.88,1
 627,Spain,Female,25,4,0.0,1,1,1,194313.93,0
@@ -6402,7 +6400,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 850,Germany,Male,55,0,98710.89,1,1,1,83617.17,1
 649,Spain,Female,49,2,0.0,1,1,0,84863.85,1
 509,Spain,Male,41,7,126683.8,1,0,1,114775.53,0
-684,France,Male,33,4,140700.61,1,1,0,103557.93,0
 806,Germany,Male,30,8,168078.83,1,1,0,85028.36,1
 729,Spain,Male,44,4,107726.93,2,1,0,153064.87,0
 683,France,Female,33,9,0.0,2,1,1,38784.42,0
@@ -6795,6 +6792,7 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 651,France,Female,25,8,0.0,2,1,1,126761.2,0
 693,Germany,Male,46,2,104763.41,1,1,1,62368.33,0
 800,France,Male,60,6,88541.57,2,1,1,131718.12,0
+760,France,Male,38,6,162888.73,1,1,0,91098.76,1
 711,France,Female,35,8,0.0,1,1,1,67508.01,0
 637,Spain,Male,43,8,0.0,1,1,0,12156.93,1
 662,France,Male,32,9,0.0,2,0,0,65089.38,0
@@ -7437,7 +7435,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 432,France,Female,27,6,62339.81,2,0,0,53874.67,0
 622,Spain,Female,47,6,142319.03,1,0,0,100183.05,0
 721,France,Male,54,5,0.0,2,1,1,4493.12,0
-614,Spain,Male,36,5,0.0,2,1,0,130610.78,0
 634,France,Female,24,2,87413.19,1,1,0,63340.65,0
 742,France,Female,29,4,0.0,2,1,1,180066.59,0
 516,France,Female,45,4,0.0,1,1,0,95273.73,1
@@ -8433,7 +8430,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 638,France,Female,43,3,145860.98,1,1,1,142763.51,1
 834,Spain,Male,40,7,0.0,2,0,0,45038.74,0
 781,France,Male,29,9,0.0,2,0,0,172097.4,0
-707,Germany,Female,48,7,105086.74,1,1,1,180344.69,1
 670,France,Male,22,2,114991.45,1,1,1,37392.56,0
 663,Spain,Female,33,8,96769.04,1,1,1,36864.05,0
 624,France,Female,23,5,0.0,2,0,0,132418.59,0
@@ -8808,7 +8804,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 674,France,Female,21,9,120150.39,2,1,1,33964.03,0
 610,France,Female,35,7,81905.95,1,1,1,61623.19,0
 652,France,Male,26,3,137998.2,2,0,1,168989.77,0
-850,Germany,Female,26,8,123126.29,1,1,0,74425.41,0
 740,France,Female,51,4,0.0,2,1,1,178929.84,0
 637,Germany,Male,43,1,135645.29,2,0,1,101382.86,1
 685,Spain,Male,31,7,122449.31,2,1,1,180769.55,0
@@ -9307,6 +9302,7 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 678,Germany,Male,83,6,123356.63,1,0,1,92934.41,0
 651,Spain,Male,47,2,0.0,2,1,1,119808.64,0
 585,Germany,Male,50,2,125845.66,1,1,0,9439.31,1
+579,Germany,Male,40,10,45408.85,2,1,0,18732.91,0
 722,Germany,Female,37,0,125977.81,1,0,0,160162.42,0
 613,Germany,Female,51,7,147262.11,1,1,1,53630.9,1
 694,France,Male,42,8,133767.19,1,1,0,36405.21,0
@@ -9825,7 +9821,6 @@ Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarje
 576,France,Male,39,1,0.0,2,1,1,68814.23,0
 584,France,Male,38,1,115341.55,1,0,1,173632.92,0
 593,France,Male,32,6,99162.29,1,1,0,128384.11,0
-705,Germany,Female,48,1,156848.13,2,1,1,99475.95,1
 595,Germany,Female,64,2,105736.32,1,1,1,89935.73,1
 699,Germany,Female,41,1,200117.76,2,1,0,94142.35,0
 516,France,Female,46,6,62212.29,1,0,1,171681.86,1

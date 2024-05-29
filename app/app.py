@@ -44,69 +44,69 @@ def main():
         # Predefined texts for each client
         client_feedback = {
     "Cliente 1": {
-        "queja": "Hola, el día 5 de abril realicé un depósito de $2,000 en el cajero automático de su sucursal en Paseo de la Castellana. Es mi sucursal habitual. Sin embargo, mi sorpresa fue mayúscula al comprobar que el depósito nunca se reflejó en mi cuenta. He guardado el recibo como prueba y solicito urgentemente que se investigue y se corrija este error a la brevedad. También he revisado mis transacciones por la aplicación del telefono y nada, no aparece.",
-        "Puntos": 812,
-        "Geografia": "Spain",
-        "Genero": "Female",
-        "Edad": 44,
-        "Antigüedad": 8,
-        "KmAcompañante": 0.0,
-        "NumeroDeAcompañantes": 3,
-        "TieneTarjetaClub": 1,
-        "EsMiembroActivo": 0,
-        "Km": 66926.83
-    },
-    "Cliente 2": {
-        "queja": "¡Esto es indignante! Por vuestra culpa mi cuentas de ahorros se ha quedado vacía por no haber hecho la tramitación que os indique la semana pasada en la oficina de la calle avenida Machupichu. Esto es intolerante. Ahora la falta de fondos ha congelado muchos pagos que tenía pendientes y ahora me reclaman el pago desde muchos sitios, Como no se arregle esta situación ya me cambio de entidad bancaria.",
-        "Puntos": 794,
-        "Geografia": "Germany",
-        "Genero": "Female",
-        "Edad": 55,
-        "Antigüedad": 6,
-        "KmAcompañante": 115796.7,
-        "NumeroDeAcompañantes": 1,
-        "TieneTarjetaClub": 1,
-        "EsMiembroActivo": 0,
-        "Km": 160526.36
-    },
-    "Cliente 3": {
-        "queja": "Estimado banco, intenté abrir una cuenta de ahorros en línea hace dos semanas y el proceso aún no se ha completado. He proporcionado todos los documentos requeridos, pero no he recibido ninguna actualización desde entonces.",
-        "Puntos": 744,
-        "Geografia": "France",
-        "Genero": "Female",
-        "Edad": 39,
-        "Antigüedad": 6,
-        "KmAcompañante": 0.0,
-        "NumeroDeAcompañantes": 1,
-        "TieneTarjetaClub": 0,
-        "EsMiembroActivo": 0,
-        "Km": 10662.58
-    },
-    "Cliente 4": {
-        "queja": "Hola buenas, intenté realizar un pago en línea para mi factura de electricidad a través de su plataforma, pero el pago fue rechazado sin motivo aparente, causando que me cobren un recargo por pago tardío.",
+        "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
         "Puntos": 593,
         "Geografia": "Spain",
         "Genero": "Male",
         "Edad": 26,
         "Antigüedad": 9,
         "KmAcompañante": 76226.9,
-        "NumeroDeAcompañantes": 1,
+        "Acompañantes": 1,
+        "TieneTarjetaClub": 1,
+        "EsMiembroActivo": 0,
+        "Km": 167564.82
+    },
+    "Cliente 2": {
+        "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
+        "Puntos": 593,
+        "Geografia": "Spain",
+        "Genero": "Male",
+        "Edad": 26,
+        "Antigüedad": 9,
+        "KmAcompañante": 76226.9,
+        "Acompañantes": 1,
+        "TieneTarjetaClub": 1,
+        "EsMiembroActivo": 0,
+        "Km": 167564.82
+    },
+    "Cliente 3": {
+        "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
+        "Puntos": 593,
+        "Geografia": "Spain",
+        "Genero": "Male",
+        "Edad": 26,
+        "Antigüedad": 9,
+        "KmAcompañante": 76226.9,
+        "Acompañantes": 1,
+        "TieneTarjetaClub": 1,
+        "EsMiembroActivo": 0,
+        "Km": 167564.82
+    },
+    "Cliente 4": {
+        "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
+        "Puntos": 593,
+        "Geografia": "Spain",
+        "Genero": "Male",
+        "Edad": 26,
+        "Antigüedad": 9,
+        "KmAcompañante": 76226.9,
+        "Acompañantes": 1,
         "TieneTarjetaClub": 1,
         "EsMiembroActivo": 0,
         "Km": 167564.82
     },
     "Cliente 5": {
-        "queja": "Mi tarjeta acaba de ser declinada sin explicación alguna. Esto es inaceptable; he revisado mi cuenta y hay fondos suficientes. Necesito saber inmediatamente qué está pasando. ¿Hay alguna restricción o problema de seguridad en mi tarjeta que no conozco? Espero una solución rápida y una explicación de por qué no fui informado previamente de este problema. Este tipo de inconvenientes no solo es molesto, sino que me hace cuestionar la fiabilidad de sus servicios. Espero su pronta respuesta.",
-        "Puntos": 600,
-        "Geografia": "France",
+        "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
+        "Puntos": 593,
+        "Geografia": "Spain",
         "Genero": "Male",
-        "Edad": 40,
-        "Antigüedad": 1,
-        "KmAcompañante": 141136.79,
-        "NumeroDeAcompañantes": 1,
+        "Edad": 26,
+        "Antigüedad": 9,
+        "KmAcompañante": 76226.9,
+        "Acompañantes": 1,
         "TieneTarjetaClub": 1,
-        "EsMiembroActivo": 1,
-        "Km": 67803.83
+        "EsMiembroActivo": 0,
+        "Km": 167564.82
     }
 }
 
@@ -139,8 +139,8 @@ def main():
 
         if st.button("watsonx 🧠"):
             if input_text:
-                #senti = sentiment(token,space_id_sentiment,input_text)
-                senti = "Negativo"
+                #senti = "Negativo"
+                senti = sentiment(token,space_id_sentiment,input_text)
                 summari = summarization(token,space_id_summarization,input_text)
                 tipo = tipo_class(token,space_id_tipo,input_text)
                 contestacion = res_contestacion(token,space_id_contestacion,input_text)
@@ -179,7 +179,7 @@ def main():
             ("Edad", "Edad"),
             ("Antigüedad", "Antigüedad"),
             ("KmAcompañante", "Km Acompañante"),
-            ("NumeroDeAcompañantes", "Número de Acompañantes"),
+            ("Acompañantes", "Número de Acompañantes"),
             ("TieneTarjetaClub", "Tiene Tarjeta de Club"),
             ("EsMiembroActivo", "Es Miembro Activo"),
             ("Km", "Km")

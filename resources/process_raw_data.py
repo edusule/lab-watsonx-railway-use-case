@@ -68,8 +68,8 @@ df.columns = [column_names_mapping[col] for col in df.columns]
 
 
 # Separate 5 rows with at least 2 having Exited = 1
-exited_rows = df[df["Abandono"] == 1].sample(n=2)  # Getting 2 rows with Exited = 1
-non_exited_rows = df[df["Abandono"] == 0].sample(n=3)  # Getting 3 rows with Exited = 0
+exited_rows = df[df["Abandono"] == 1].sample(n=3)  # Getting 2 rows with Exited = 1
+non_exited_rows = df[df["Abandono"] == 0].sample(n=7)  # Getting 3 rows with Exited = 0
 test_df = pd.concat([exited_rows, non_exited_rows])
 
 # The rest of the data will be used for training

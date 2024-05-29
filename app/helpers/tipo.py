@@ -2,13 +2,17 @@ import requests
 import json
 
 def tipo_class(token,space_id,text):
+    print("Clasificando tipo")
+    print(token)
+    print(space_id)
+    print(text)
 
     url = f"https://us-south.ml.cloud.ibm.com/ml/v1/deployments/{space_id}/text/generation?version=2021-05-01"
 
     payload = json.dumps({
     "parameters": {
         "prompt_variables": {
-        "input": f"{text}"
+        "Input": f"{text}"
         }
     }
     })

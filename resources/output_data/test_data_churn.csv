@@ -1,6 +1,11 @@
 Puntos,Geografia,Genero,Edad,Antigüedad,KmAcompañante,Acompañantes,TieneTarjetaClub,EsMiembroActivo,Km,Abandono
-682,France,Male,55,9,0.0,1,1,0,153356.8,1
-760,France,Male,38,6,162888.73,1,1,0,91098.76,1
-579,Germany,Male,40,10,45408.85,2,1,0,18732.91,0
-717,Germany,Female,35,5,103214.71,1,1,0,172172.7,0
-738,France,Male,31,9,82674.15,1,1,0,41970.72,0
+705,Germany,Female,48,1,156848.13,2,1,1,99475.95,1
+589,France,Female,59,2,0.0,2,1,1,126160.24,1
+707,Germany,Female,48,7,105086.74,1,1,1,180344.69,1
+682,France,Male,38,4,107192.38,1,1,1,15669.17,0
+640,France,Female,29,3,0.0,2,1,0,2743.69,0
+684,France,Male,33,4,140700.61,1,1,0,103557.93,0
+850,Germany,Female,26,8,123126.29,1,1,0,74425.41,0
+620,Spain,Male,31,2,166833.86,2,1,1,135171.6,0
+670,Spain,Male,25,6,0.0,2,1,1,78358.94,0
+614,Spain,Male,36,5,0.0,2,1,0,130610.78,0

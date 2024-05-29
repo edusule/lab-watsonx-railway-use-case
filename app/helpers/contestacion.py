@@ -2,13 +2,14 @@ import requests
 import json
 
 def res_contestacion(token,space_id,text):
+    print("Generando respuesta")
 
     url = f"https://us-south.ml.cloud.ibm.com/ml/v1/deployments/{space_id}/text/generation?version=2021-05-01"
 
     payload = json.dumps({
     "parameters": {
         "prompt_variables": {
-        "input": f"{text}"
+        "Input": f"{text}"
         }
     }
     })

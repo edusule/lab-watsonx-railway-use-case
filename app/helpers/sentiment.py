@@ -2,13 +2,13 @@ import requests
 import json
 
 def sentiment(token,space_id,text):
+    print("Clasificando sentimientos")
 
     url = f"https://us-south.ml.cloud.ibm.com/ml/v1/deployments/{space_id}/text/generation?version=2021-05-01"
-
     payload = json.dumps({
     "parameters": {
         "prompt_variables": {
-        "text": f"{text}"
+        "Input": f"{text}"
         }
     }
     })
