@@ -59,7 +59,7 @@ df_evaluaciones = df[~df.index.isin(df_tipo_distinto.index)]
 df_tipo_distinto.to_csv('data/prompt.csv', index=False, encoding="utf-8")
 df_evaluaciones.to_csv('data/evaluaciones.csv', index=False, encoding="utf-8")
 
-df_churn = pd.read_csv("data\Churn Modeling.csv")
+df_churn = pd.read_csv("data/Churn Modeling.csv")
 df = df_churn[["CreditScore", "Geography", "Gender", "Age", "Tenure", "Balance", "NumOfProducts", "HasCrCard", "IsActiveMember", "EstimatedSalary", "Exited"]]
 
 column_names_mapping = {

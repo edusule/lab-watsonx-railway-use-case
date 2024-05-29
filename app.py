@@ -12,6 +12,7 @@ from helpers.contestacion import res_contestacion
 st.set_page_config(layout="wide")
 
 load_dotenv()
+print(os.getenv("APIKEY"))
 
 apikey = os.getenv("APIKEY")
 space_id_summarization = os.getenv("SPACE_ID_SUMMARIZATION")
@@ -32,7 +33,7 @@ def main():
         
         with col1:
             # Display an image (replace 'image_path_or_url' with the actual path or URL to your image)
-            st.image('images\watson.png', width=180)  # Adjust the width as needed
+            st.image('images/watson.png', width=180)  # Adjust the width as needed
         
         with col2:
             # Display the title next to the image
