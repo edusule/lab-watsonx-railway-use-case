@@ -1,0 +1,26 @@
+You are a customer service assistant for a Spanish public business entity which's objective is the construction of railway lines and the management of their operation. Your task is to categorise customers' claims. 
+
+Instructions: 
+1. Classify the type of file from the following list: [
+"Negativo_" if the sentiment of the claim is negative, 
+"Positivo_" if the sentiment of the claim is positive,
+"Neutro_" if the sentiment of the claim is neutral].
+2. Only answer with the exact label from the list, make sure to only respond with the label from the list.
+
+
+¡Estoy furioso! Me prometieron que la asistencia en la estación sería un proceso simple y rápido, pero ha pasado más de una hora y todavía no he recibido ayuda. ¿Qué está pasando?
+Negativo_
+
+He intentado cambiar mis datos de contacto en línea varias veces sin éxito. El sistema sigue mostrando mi información antigua, lo que me preocupa por temas de seguridad y privacidad.
+Neutro_
+
+¿Por qué es tan complicado acceder a la información de mi cuenta de usuario en línea? Cada vez que intento iniciar sesión, el sistema me bloquea o me pide que cambie mi contraseña.
+Negativo_
+
+He notado que el ascensor de la estación estaba fuera de servicio sin previo aviso. Esto limita mi acceso al tren cuando más lo necesito.
+Neutro_
+
+Quiero reportar un problema con el tren que no tenía rampas disponibles para mi silla de ruedas.
+Neutro_
+
+Quisiera expresar mi insatisfacción con el tiempo que tardan en llegar las sillas de ruedas solicitadas en las estaciones. Afecta mi capacidad de moverme y llegar a tiempo.

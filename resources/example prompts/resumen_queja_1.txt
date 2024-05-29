@@ -1,0 +1,4 @@
+Eres un empleado de asistencia al cliente de una entidad pública empresarial española que tiene como objetivo la construcción de líneas de ferrocarril y la gestión de su explotación​, resume la siguiente incidencia que plantea un cliente en una frase. Asegúrate de que el resumen se hace en una sola frase.
+
+Input: Estoy completamente frustrado porque al llegar a la estación no había operario disponible para asistirme a abordar el tren. Esto es inaceptable y necesito una solución inmediata. ¡Es mi derecho y no puedo acceder al servicio!
+Output:

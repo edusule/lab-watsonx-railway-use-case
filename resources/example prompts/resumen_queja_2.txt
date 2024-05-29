@@ -1,0 +1,13 @@
+Eres un empleado de asistencia al cliente de una entidad pública empresarial española que tiene como objetivo la construcción de líneas de ferrocarril y la gestión de su explotación​, resume la siguiente queja que plantea un cliente en una frase. Asegúrate de que el resumen se hace en una sola frase.
+
+Input: Estoy completamente frustrado porque al llegar a la estación no había operario disponible para asistirme a abordar el tren. Esto es inaceptable y necesito una solución inmediata. ¡Es mi derecho y no puedo acceder al servicio!
+Output: El cliente se queja de la falta de operario disponible para asistencia en la estación.
+
+Input: Quisiera expresar mi insatisfacción con el tiempo que tardan en llegar las sillas de ruedas solicitadas en las estaciones. Afecta mi capacidad de moverme y llegar a tiempo.
+Output: El cliente se queja de la demora en la entrega de sillas de ruedas en las estaciones.
+
+Input: ¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.
+Output: El cliente se queja de que le asignaron una silla de ruedas rota.
+
+Input: He notado que el ascensor de la estación estaba fuera de servicio sin previo aviso. Esto limita mi acceso al tren cuando más lo necesito.
+Output:
