@@ -45,68 +45,68 @@ def main():
         client_feedback = {
     "Cliente 1": {
         "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
-        "Puntos": 593,
-        "Geografia": "Spain",
-        "Genero": "Male",
-        "Edad": 26,
+        "Puntos": 656,
+        "Geografia": "Germany",
+        "Genero": "Female",
+        "Edad": 49,
         "Antigüedad": 9,
-        "KmAcompañante": 76226.9,
+        "KmAcompañante": 97092.87,
         "Acompañantes": 1,
         "TieneTarjetaClub": 1,
         "EsMiembroActivo": 0,
-        "Km": 167564.82
+        "Km": 74771.22,
     },
     "Cliente 2": {
-        "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
-        "Puntos": 593,
-        "Geografia": "Spain",
-        "Genero": "Male",
-        "Edad": 26,
-        "Antigüedad": 9,
-        "KmAcompañante": 76226.9,
+        "queja": "Estoy completamente frustrado porque al llegar a la estación no había operario disponible para asistirme a abordar el tren. Esto es inaceptable y necesito una solución inmediata. ¡Es mi derecho y no puedo acceder al servicio!",
+        "Puntos": 580,
+        "Geografia": "Germany",
+        "Genero": "Female",
+        "Edad": 38,
+        "Antigüedad": 1,
+        "KmAcompañante": 128218.47,
         "Acompañantes": 1,
         "TieneTarjetaClub": 1,
         "EsMiembroActivo": 0,
-        "Km": 167564.82
+        "Km": 125953.83,
     },
     "Cliente 3": {
-        "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
-        "Puntos": 593,
+        "queja": "He notado que el ascensor de la estación estaba fuera de servicio sin previo aviso. Esto limita mi acceso al tren cuando más lo necesito.",
+        "Puntos": 552,
         "Geografia": "Spain",
         "Genero": "Male",
-        "Edad": 26,
-        "Antigüedad": 9,
-        "KmAcompañante": 76226.9,
+        "Edad": 55,
+        "Antigüedad": 3,
+        "KmAcompañante": 0.0,
         "Acompañantes": 1,
         "TieneTarjetaClub": 1,
-        "EsMiembroActivo": 0,
-        "Km": 167564.82
+        "EsMiembroActivo": 1,
+        "Km": 40333.94,
     },
     "Cliente 4": {
-        "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
-        "Puntos": 593,
+        "queja": "No puedo creer que aún no ofrezcan asistencia para discapacitados a través de su aplicación móvil. Esto me obliga a llamar por teléfono, lo cual es muy inconveniente.",
+        "Puntos": 633,
         "Geografia": "Spain",
-        "Genero": "Male",
-        "Edad": 26,
-        "Antigüedad": 9,
-        "KmAcompañante": 76226.9,
-        "Acompañantes": 1,
+        "Genero": "Female",
+        "Edad": 46,
+        "Antigüedad": 3,
+        "KmAcompañante": 0.0,
+        "Acompañantes": 2,
         "TieneTarjetaClub": 1,
         "EsMiembroActivo": 0,
-        "Km": 167564.82
+        "Km": 120250.58,
     },
     "Cliente 5": {
-        "queja": "¡Es inadmisible que me hayan asignado una silla de ruedas rota! Esto es un error grave de su parte y exijo que se corrija inmediatamente.",
-        "Puntos": 593,
-        "Geografia": "Spain",
-        "Genero": "Male",
-        "Edad": 26,
-        "Antigüedad": 9,
-        "KmAcompañante": 76226.9,
+        "queja": "Quiero reportar un problema con el tren que no tenía rampas disponibles para mi silla de ruedas.",
+        "Puntos": 687,
+        "Geografia": "France",
+        "Genero": "Female",
+        "Edad": 36,
+        "Antigüedad": 4,
+        "KmAcompañante": 97157.96,
         "Acompañantes": 1,
-        "TieneTarjetaClub": 1,
-        "EsMiembroActivo": 0,
-        "Km": 167564.82
+        "TieneTarjetaClub": 0,
+        "EsMiembroActivo": 1,
+        "Km": 63185.05,
     }
 }
 
@@ -139,11 +139,14 @@ def main():
 
         if st.button("watsonx 🧠"):
             if input_text:
-                #senti = "Negativo"
-                senti = sentiment(token,space_id_sentiment,input_text)
-                summari = summarization(token,space_id_summarization,input_text)
-                tipo = tipo_class(token,space_id_tipo,input_text)
-                contestacion = res_contestacion(token,space_id_contestacion,input_text)
+                #senti = sentiment(token,space_id_sentiment,input_text)
+                #summari = summarization(token,space_id_summarization,input_text)
+                #tipo = tipo_class(token,space_id_tipo,input_text)
+                #contestacion = res_contestacion(token,space_id_contestacion,input_text)
+                senti = "XXX"
+                summari = "XXX"
+                tipo = "XXX"
+                contestacion = "XXX"
 
                 col_analysis1, col_analysis2 = st.columns(2)
 
