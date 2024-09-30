@@ -9,7 +9,7 @@ def res_contestacion(token,space_id,text):
     payload = json.dumps({
     "parameters": {
         "prompt_variables": {
-        "Input": f"{text}"
+        "input": f"{text}"
         }
     }
     })

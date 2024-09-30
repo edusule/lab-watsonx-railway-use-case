@@ -12,7 +12,7 @@ def tipo_class(token,space_id,text):
     payload = json.dumps({
     "parameters": {
         "prompt_variables": {
-        "Input": f"{text}"
+        "input": f"{text}"
         }
     }
     })
@@ -27,9 +27,9 @@ def tipo_class(token,space_id,text):
     print(response.text)
 
     dict_json= {
-        "OP_": "Problemas con el operario de ayuda",
-        "MAT_": "Problema con el material de ayuda para la discapacidad",
-        "WEB_": "Problemas con la reserva por la página web"
+        "OP\_": "Problemas con el operario de ayuda",
+        "MAT\_": "Problema con el material de ayuda para la discapacidad",
+        "WEB\_": "Problemas con la reserva por la página web"
     }
 
     return dict_json[response.json()["results"][0]["generated_text"].replace("\n", "").replace(" ", "")]
